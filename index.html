@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>FASTWORKOUT</title>
+  </head>
+  <body>
+    <main>
+      <form id="form">
+        <h1>FAST<br />WORKOUT</h1>
+        <div class="input-wrapper">
+          <label for="name">Nome completo</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="digite um email válido.."
+            required
+          />
+        </div>
+
+        <label for="gender" class="gender">Tipo de treino:</label>
+        <div class="radio-wrapper">
+          <label for="male">Masculino</label>
+          <input type="radio" name="male" value="male" id="male" />
+          <label for="female">Feminino</label>
+          <input type="radio" name="male" value="female" id="male" />
+        </div>
+
+        <a
+          class="send"
+          href="https://api.whatsapp.com/send?phone=5515997883162"
+          target="_blank"
+        >
+          COMPRAR
+        </a>
+      </form>
+    </main>
+  </body>
+</html>

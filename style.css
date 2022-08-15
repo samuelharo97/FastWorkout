@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: italic;
+  font-family: 'Anton', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+h1 {
+  letter-spacing: 5px;
+  line-height: 75px;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+main {
+  min-width: 100%;
+  height: 100vh;
+  background-image: url('assets/logo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  padding-top: 13rem;
+}
+
+label {
+  color: white;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 35%;
+  gap: 3px;
+}
+
+.input-wrapper input {
+  height: 3.5rem;
+}
+
+.radio-wrapper {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 15px;
+  font-size: 2rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  height: 7rem;
+  min-width: fit-content;
+  padding: 5px 26px 5px 22px;
+  background-color: rgb(255, 255, 0);
+}
+
+a:hover {
+  background-color: rgba(255, 255, 0, 0.898);
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  body {
+    padding: 0 200px;
+  }
+}
