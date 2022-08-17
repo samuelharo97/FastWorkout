@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-png" />
@@ -17,40 +17,77 @@
   </head>
   <body>
     <main>
-      <form id="form">
-        <h1>FAST<br />WORKOUT</h1>
-        <div class="input-wrapper">
-          <label for="name">Nome completo</label>
-          <input type="text" name="name" id="name" />
-        </div>
+      <h1>FAST<br />WORKOUT</h1>
 
-        <div class="input-wrapper">
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="digite um email válido.."
-            required
-          />
-        </div>
+      <a
+        class="buyButton"
+        href="https://api.whatsapp.com/send?phone=5515997883162"
+        target="_blank"
+      >
+        COMPRAR
+      </a>
+      <div class="content-wrapper">
+        <h2>
+          RÁPIDO<br />
+          E EFICAZ
+        </h2>
+        <p>
+          Está cansado de passar horas na academia e mesmo assim não ter
+          resultados? Essa planilha de treino foi desenvolvida para você ter um
+          maior desempenho otimizando ao máximo o seu tempo.
+        </p>
+      </div>
 
-        <label for="gender" class="gender">Tipo de treino:</label>
-        <div class="radio-wrapper">
-          <label for="male">Masculino</label>
-          <input type="radio" name="male" value="male" id="male" />
-          <label for="female">Feminino</label>
-          <input type="radio" name="male" value="female" id="male" />
-        </div>
+      <img src="assets/relogio.png" alt="image of a clock" />
+      <div class="content-wrapper">
+        <h2>
+          BASEADO<br />
+          EM CIÊNCIA
+        </h2>
 
+        <p>
+          Os treinos são baseados em duas tecnicas chamadas de "Super Set" e
+          "Serie Combinada", levando o seu corpo a fadiga de maneira mais rápida
+          e eficaz.
+        </p>
+      </div>
+      <img
+        src="assets/celular.png"
+        alt="image of a phone with a workout pdf open"
+      />
+      <div class="content-wrapper">
+        <h2>VÍDEOS DE DEMONSTRAÇÃO</h2>
+
+        <p>
+          O treino é enviado em PDF, para você poder acessar de qualquer
+          dispositivo, hora ou lugar. <br />
+          E caso você não saiba como realizar os exercícios, não tenha medo pois
+          o PDF conta com vídeos de demonstração de todos os exercícios para
+          você não ficar na mão.
+        </p>
+      </div>
+
+      <div class="content-wrapper">
+        <h4>
+          DE<br />
+          <span class="discountRed"> R$49,90 </span>
+        </h4>
+      </div>
+      <div class="content-wrapper">
+        <h4>
+          POR APENAS<br />
+          <span class="discountGreen">R$14,90</span>
+        </h4>
+      </div>
+      <div id="footer">
         <a
-          class="send"
+          class="buyButton"
           href="https://api.whatsapp.com/send?phone=5515997883162"
           target="_blank"
         >
           COMPRAR
         </a>
-      </form>
+      </div>
     </main>
   </body>
 </html>
